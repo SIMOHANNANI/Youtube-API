@@ -1,0 +1,348 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100,400');
+
+body{
+  font-family: Raleway;
+  margin: 2px 0px 0px 0px;
+ 
+}
+.navbar{
+  background: RGB(255,0,0);
+  height: 84px;
+  margin-left:0.92px;
+  margin-right:0.92px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.imglogo{
+  margin: 14px auto;
+  display: block;
+  position: absolute;
+  left: calc((100% - 140px) / 2);
+  z-index: 100000;
+}
+/*  Cursor and auto-type */ 
+.txt-type > .txt {
+  border-right: 0.1rem solid rgb(0, 0, 0);
+}
+.auto-type{
+  font-weight: 0.5;
+}
+
+.autotype{
+  font-weight: 200;
+
+  font-size: 2rem;
+}
+
+footer {
+  position: fixed;
+  left:30px;
+  top:579px;
+
+  color:white;
+  margin-left: -29px;
+  height: 84px;
+  z-index: 40000;
+  width: 99.87%;
+  background-color:#282828 ;
+  text-align: center;
+  line-height: 50px;
+  
+
+}
+
+.split{
+  height: 71.1%;
+  width: 60%;
+  position: absolute;
+  top: 84px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left{
+  height: 72.1%;
+  margin-left:0.92px;
+  left: 0;
+  width: 52%;
+  border-width: 3px;
+  border-left-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      RGB(255,0,0), 
+      #282828
+    ) 0 80%;
+  padding-left: 85px;
+
+}
+.right{
+  margin-right:0.92px;
+  right: 0;
+  width: 48%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      RGB(255,0,0), 
+      #282828
+    ) 1 70%;
+
+}
+
+.Copyright{
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 1.08rem;
+
+}
+form{
+  margin-top: 65px;
+  margin-left: 80px;
+}
+
+input{
+  text-align: center;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  display: block;
+}
+
+select{
+  text-align: center;
+  width: 306px;
+  height: 36px;
+  margin-bottom: 10px;
+  display: block;
+
+}
+.btn{
+  border:none;
+  background-color:#282828;
+  color :white;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: Raleway;
+  margin-bottom: 10px;
+  width: 306px;
+  height: 36px;
+  display: block;
+  cursor: pointer;
+}
+.btn:active{
+  border:none;
+  background-color:#000000;
+  color :white;
+  font-size: 1.08rem;
+  font-family: Raleway;
+  margin-bottom: 10px;
+  width: 306px;
+  height: 36px;
+  display: block;
+}
+.clear{
+  background-color:rgba(255, 0, 0, 0.9263);
+  border:none;
+  color :rgb(12, 12, 12);
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: Raleway;
+  margin-bottom: 10px;
+  width: 326px;
+  height: 36px;
+  cursor: pointer;
+}
+.clear:active{
+  background-color:rgb(255, 0, 0); 
+  color:white;
+}
+
+.btnQuery{
+  border:none;
+  background-color:#282828;
+  color :white;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: Raleway;
+  width: 106px;
+  height: 36px;
+  cursor: pointer;
+
+}
+.btnQuery:active{
+  background-color:#000000;
+  color :white;
+  padding-left:10px;
+}
+.ligne1{
+  position: absolute;
+  left:50px;
+  top:460px;
+
+}
+.ligne2{
+  position: absolute;
+  left:50px;
+  top:500px;
+}
+/* ----------------------------------QUESTIONS--------------------------------------------*/
+
+.Question_1_Reponce,.Question_2_Reponce,.Question_3_Reponce,.Question_4_Reponce,.Question_5_Reponce,.Question_6_Reponce,.Question_7_Reponce{
+  display:none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto auto;
+	max-width: 500px;
+  position: relative;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+td{
+  padding: 4px 20px;
+  text-align: center;
+}
+.long  td{
+  padding: 4px 5px;
+}
+
+/*******************************RESULT_SEARCH**************************************/
+.titlevideo{
+  font-weight: 500;
+  font-size: 0.92rem;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+/**********************************************************************************/
+
+input[type=number]
+{
+
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 304px;
+  height: 35px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 0px;
+  border: 1px solid rgb(0, 0, 0);
+}
+input,select{
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  display: block;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  content: 'najsh';
+  height: 50%;
+  top: 200;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+  
+  bottom: 200px;
+  height: 50%;
+}
+
+
+
+
+.innerDiv {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {
+    -ms-transform: scale(0.92,0.92);
+    transform: scale(0.92,0.92);
+  }
+  to {
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+  }
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {
+    -ms-transform: scale(0.92,0.92);
+    transform: scale(0.92,0.92);
+  }
+  to {
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+  }
+}
+
+.innerDiv:hover {
+    transition-property: width;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    -ms-transform: scale(1.01,1.01);
+    transform: scale(1.01,1.01);}
+table tr:first-child td {
+    color:rgb(196, 189, 189);
+    background: black;
+    border:none;
+
+    font-weight: 700;
+  }
+tr >td{
+ background: rgba(255, 255, 0, 0.308);
+}
+a:visited { text-decoration: none; }
